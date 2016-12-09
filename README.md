@@ -3,7 +3,6 @@
 [@php]:             http://php.net/                         "PHP: Hypertext Preprocessor"
 [@symfony]:         http://www.symfony.com/                 "High Performance PHP Framework for Web Development"
 
-[![Build Status](https://travis-ci.org/Init/MultipleInheritBundle.png?branch=master)](https://travis-ci.org/Init/MultipleInheritBundle)
 
 This is a fork of Init/MultipleInheritBundle and aims to port this bundle to symfony 3.
 
@@ -17,6 +16,3 @@ and sites hosted on subdomains, in which need to be changed some templates and/o
 
 ## Installing and configuring
 
-Docs are located in the `Resources/doc/` folder. 
-
-[Go to the documentation](http://github.com/Init/MultipleInheritBundle/blob/master/Resources/doc/index.md)
