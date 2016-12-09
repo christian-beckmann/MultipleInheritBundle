@@ -1,6 +1,6 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Templating\Helper;
+namespace Init\Bundle\MultipleInheritanceBundle\Templating\Helper;
 
 use Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser;
 use Symfony\Bundle\FrameworkBundle\Templating\Helper\ActionsHelper as BaseHelper;
@@ -10,7 +10,7 @@ use Symfony\Component\HttpKernel\Fragment\FragmentHandler;
  * Class ActionsHelper overrides default ControllerReference creation logic to change short controller names
  * in sync with active bundle.
  *
- * @package Megogo\Bundle\MultipleInheritanceBundle\Templating\Helper
+ * @package Init\Bundle\MultipleInheritanceBundle\Templating\Helper
  */
 class ActionsHelper extends BaseHelper
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Child1Bundle;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child2Bundle\Child2Bundle;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\ParentBundle\ParentBundle;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\TestKernel;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Child1Bundle;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child2Bundle\Child2Bundle;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\ParentBundle\ParentBundle;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\TestKernel;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 
 class TestCase extends \PHPUnit_Framework_TestCase

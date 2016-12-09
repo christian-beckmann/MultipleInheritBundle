@@ -1,6 +1,6 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Routing;
+namespace Init\Bundle\MultipleInheritanceBundle\Routing;
 
 
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;

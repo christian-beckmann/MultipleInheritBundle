@@ -1,6 +1,6 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\ParentBundle\Controller;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\ParentBundle\Controller;
 
 
 class AwesomeController

@@ -15,7 +15,7 @@ Active Bundle determines priority of searching and loading resources between chi
 ```javascript
 {
 	"require": {
-		"megogo/multiple-inheritance-bundle": "dev-master"
+		"Init/multiple-inheritance-bundle": "dev-master"
 	}
 }
 ```
@@ -32,20 +32,20 @@ php composer.phar update
 <?php
 // app/AppKernel.php
 
-use Megogo\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel as BaseKernel;
+use Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel as BaseKernel;
 
 class AppKernel extends BaseKernel {
     // ...
 }
 ```
 
-4) Optional step: If you are using integrated symfony cacher, extend your `AppCache` with `Megogo\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache\HttpCache`, like that:
+4) Optional step: If you are using integrated symfony cacher, extend your `AppCache` with `Init\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache\HttpCache`, like that:
 
 ```php
 <?php
 // app/AppCache.php
 
-use Megogo\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache\HttpCache as BaseCache;
+use Init\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache\HttpCache as BaseCache;
 
 class AppCache extends BaseCache {
 	// ...
@@ -63,7 +63,7 @@ public function registerBundles() {
     return array(
         // ...
         
-        new Megogo\Bundle\MultipleInheritanceBundle\MultipleInheritanceBundle($this),
+        new Init\Bundle\MultipleInheritanceBundle\MultipleInheritanceBundle($this),
     );
 }
 ```

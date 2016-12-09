@@ -1,12 +1,12 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests\EventListener;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests\EventListener;
 
-use Megogo\Bundle\MultipleInheritanceBundle\EventListener\ActiveBundleDeterminationListener;
-use Megogo\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller\ChildBundle1TestController;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child2Bundle\Controller\ChildBundle2TestController;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\TestCase;
+use Init\Bundle\MultipleInheritanceBundle\EventListener\ActiveBundleDeterminationListener;
+use Init\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller\ChildBundle1TestController;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child2Bundle\Controller\ChildBundle2TestController;
+use Init\Bundle\MultipleInheritanceBundle\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

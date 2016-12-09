@@ -1,25 +1,25 @@
 {
-    "name": "megogo/multiple-inheritance-bundle",
+    "name": "franckranaivo/multiple-inheritance-bundle",
     "type": "symfony-bundle",
-    "description": "This Symfony2 bundle provides inheritance between multiple child bundles and one parent.",
+    "description": "This Symfony3 bundle provides inheritance between multiple child bundles and one parent.",
     "keywords": ["symfony", "inheritance", "bundle"],
     "license": "LGPL-3.0",
     "authors": [
         {
-            "name": "Igor Vovk",
-            "email": "igor.vovk@megogo.net"
+            "name": "Franck RANAIVO-HARISOA",
+            "email": "franck@init.mg"
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/framework-bundle": "~2.4"
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": "~3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Megogo\\Bundle\\MultipleInheritanceBundle": "" }
+        "psr-0": { "Init\\Bundle\\MultipleInheritanceBundle": "" }
     },
-    "target-dir": "Megogo/Bundle/MultipleInheritanceBundle",
+    "target-dir": "Init/Bundle/MultipleInheritanceBundle",
     "minimum-stability": "dev"
 }

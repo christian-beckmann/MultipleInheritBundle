@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\EventListener;
+namespace Init\Bundle\MultipleInheritanceBundle\EventListener;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel;
-use Megogo\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
+use Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel;
+use Init\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
@@ -17,7 +17,7 @@ class ActiveBundleDeterminationListener implements EventSubscriberInterface
 {
 
     /**
-     * @var \Megogo\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel
+     * @var \Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel
      */
     private $kernel;
     /**

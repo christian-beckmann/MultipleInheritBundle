@@ -1,10 +1,10 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests\Templating;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests\Templating;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\Templating\Helper\ActionsHelper;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\TestCase;
+use Init\Bundle\MultipleInheritanceBundle\Templating\Helper\ActionsHelper;
+use Init\Bundle\MultipleInheritanceBundle\Tests\TestCase;
 use Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser;
 use Symfony\Component\HttpKernel\Fragment\FragmentHandler;
 
@@ -19,7 +19,7 @@ class ActionsHelperTest extends TestCase
         $actionsHelper = $this->initActionsHelper($kernel);
 
         $this->assertEquals(
-            'Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\ParentBundle\Controller\AwesomeController::indexAction',
+            'Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\ParentBundle\Controller\AwesomeController::indexAction',
             $actionsHelper->controller('ParentBundle:Awesome:index')->controller
         );
     }
@@ -32,7 +32,7 @@ class ActionsHelperTest extends TestCase
         $actionsHelper = $this->initActionsHelper($kernel);
 
         $this->assertEquals(
-            'Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller\AwesomeController::indexAction',
+            'Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller\AwesomeController::indexAction',
             $actionsHelper->controller('ParentBundle:Awesome:index')->controller
         );
     }

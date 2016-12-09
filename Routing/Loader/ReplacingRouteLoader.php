@@ -1,9 +1,9 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Routing\Loader;
+namespace Init\Bundle\MultipleInheritanceBundle\Routing\Loader;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
+use Init\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser;
 use Symfony\Component\Config\Loader\DelegatingLoader;
 use Symfony\Component\Config\Loader\LoaderResolverInterface;
@@ -14,7 +14,7 @@ use Symfony\Component\Routing\RouteCollection;
  * Class ReplacingRouteLoader replaces bundle name, adds prefix to routes and replaces some options of already created
  * routes. Useful when you want copy routes from parent bundle, add some requirements, and replace paths to child bundle.
  *
- * @package Megogo\Bundle\MultipleInheritanceBundle\Routing\Loader
+ * @package Init\Bundle\MultipleInheritanceBundle\Routing\Loader
  */
 class ReplacingRouteLoader extends DelegatingLoader
 {

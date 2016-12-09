@@ -1,9 +1,9 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel;
+use Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
 class TestKernel extends BundleInheritanceKernel

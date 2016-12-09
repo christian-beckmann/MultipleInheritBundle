@@ -1,6 +1,6 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller;
 
 
 class ChildBundle1TestController

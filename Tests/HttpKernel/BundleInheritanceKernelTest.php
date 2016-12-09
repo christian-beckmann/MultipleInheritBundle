@@ -1,11 +1,11 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests\HttpKernel;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests\HttpKernel;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\TestKernel;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\UnknownParentBundle\UnknownParentBundle;
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\TestCase;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\TestKernel;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\UnknownParentBundle\UnknownParentBundle;
+use Init\Bundle\MultipleInheritanceBundle\Tests\TestCase;
 
 class BundleInheritanceKernelTest extends TestCase
 {

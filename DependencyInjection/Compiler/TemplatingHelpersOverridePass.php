@@ -1,6 +1,6 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\DependencyInjection\Compiler;
+namespace Init\Bundle\MultipleInheritanceBundle\DependencyInjection\Compiler;
 
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
@@ -19,7 +19,7 @@ class TemplatingHelpersOverridePass implements CompilerPassInterface {
             $definition = $container->getDefinition('templating.helper.actions');
 
             $definition
-                ->setClass('Megogo\Bundle\MultipleInheritanceBundle\Templating\Helper\ActionsHelper')
+                ->setClass('Init\Bundle\MultipleInheritanceBundle\Templating\Helper\ActionsHelper')
                 ->addArgument(new Reference('controller_name_converter', ContainerInterface::IGNORE_ON_INVALID_REFERENCE, false));
         }
     }

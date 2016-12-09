@@ -1,9 +1,9 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\UnknownParentBundle;
+namespace Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\UnknownParentBundle;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\Tests\Fixtures\BaseBundle;
+use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\BaseBundle;
 
 class UnknownParentBundle extends BaseBundle
 {

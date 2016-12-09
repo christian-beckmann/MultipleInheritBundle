@@ -1,9 +1,9 @@
 <?php
 
-namespace Megogo\Bundle\MultipleInheritanceBundle\HttpKernel;
+namespace Init\Bundle\MultipleInheritanceBundle\HttpKernel;
 
 
-use Megogo\Bundle\MultipleInheritanceBundle\DependencyInjection\Loader\YamlFileLoader;
+use Init\Bundle\MultipleInheritanceBundle\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\Config\Loader\DelegatingLoader;
 use Symfony\Component\Config\Loader\LoaderResolver;
 use Symfony\Component\DependencyInjection\ContainerInterface;

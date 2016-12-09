@@ -14,7 +14,7 @@
         >
 
     <testsuites>
-        <testsuite name="Megogo MutipleInharitanceBundle Test Suite">
+        <testsuite name="Init MutipleInharitanceBundle Test Suite">
             <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>
