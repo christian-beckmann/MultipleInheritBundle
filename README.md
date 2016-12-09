@@ -5,6 +5,8 @@
 
 [![Build Status](https://travis-ci.org/megogo/MultipleInheritanceBundle.png?branch=master)](https://travis-ci.org/megogo/MultipleInheritanceBundle)
 
+This is a fork of megogo/MultipleInheritanceBundle and aims to port this bundle to symfony 3.
+
 This bundle aims to provide the missing Symfony 2 functionality, when multiple child bundles inherits from one parent.
 As an example, here is the task of building sites-satellites, when you have the main site,
 and sites hosted on subdomains, in which need to be changed some templates and/or part of the logic in the controllers.
