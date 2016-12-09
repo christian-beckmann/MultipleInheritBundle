@@ -1,12 +1,12 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\Tests\EventListener;
+namespace Init\Bundle\MultipleInheritBundle\Tests\EventListener;
 
-use Init\Bundle\MultipleInheritanceBundle\EventListener\ActiveBundleDeterminationListener;
-use Init\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
-use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller\ChildBundle1TestController;
-use Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child2Bundle\Controller\ChildBundle2TestController;
-use Init\Bundle\MultipleInheritanceBundle\Tests\TestCase;
+use Init\Bundle\MultipleInheritBundle\EventListener\ActiveBundleDeterminationListener;
+use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
+use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Controller\ChildBundle1TestController;
+use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Controller\ChildBundle2TestController;
+use Init\Bundle\MultipleInheritBundle\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

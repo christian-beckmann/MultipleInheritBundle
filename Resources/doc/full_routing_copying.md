@@ -8,7 +8,7 @@ To duplicate all routes of parent bundle, prepend in `routing.yml` these lines:
 ```yml
 # app/config/routing.yml
 
-MultipleInheritanceBundle:
+MultipleInheritBundle:
     resource: .
     type: inheritance
 ```
@@ -18,7 +18,7 @@ Next, your child bundle class must implement `RoutingAdditionsInterface`:
 ```php
 // src/Acme/ChildBundle/ChildBundle.php
 
-use Init\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
+use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
 
 class ChildBundle extends Bundle implements RoutingAdditionsInterface
 {

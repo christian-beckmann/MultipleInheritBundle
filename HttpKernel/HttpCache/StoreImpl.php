@@ -1,15 +1,15 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache;
+namespace Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache;
 
 
-use Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel;
+use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Class StoreImpl injects active bundle in cache key
  *
- * @package Init\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache
+ * @package Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache
  */
 class StoreImpl extends Store
 {
@@ -17,7 +17,7 @@ class StoreImpl extends Store
     protected $keyCache;
 
     /**
-     * @var \Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel
+     * @var \Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel
      */
     private $kernel;
 

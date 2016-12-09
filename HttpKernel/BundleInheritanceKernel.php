@@ -1,9 +1,9 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\HttpKernel;
+namespace Init\Bundle\MultipleInheritBundle\HttpKernel;
 
 
-use Init\Bundle\MultipleInheritanceBundle\DependencyInjection\Loader\YamlFileLoader;
+use Init\Bundle\MultipleInheritBundle\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\Config\Loader\DelegatingLoader;
 use Symfony\Component\Config\Loader\LoaderResolver;
 use Symfony\Component\DependencyInjection\ContainerInterface;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures;
+namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures;
 
 
-use Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel;
+use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
 class TestKernel extends BundleInheritanceKernel

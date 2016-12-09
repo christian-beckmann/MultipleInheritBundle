@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Init\Bundle\MultipleInheritanceBundle\EventListener;
+namespace Init\Bundle\MultipleInheritBundle\EventListener;
 
 
-use Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel;
-use Init\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
+use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
+use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
@@ -17,7 +17,7 @@ class ActiveBundleDeterminationListener implements EventSubscriberInterface
 {
 
     /**
-     * @var \Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel
+     * @var \Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel
      */
     private $kernel;
     /**

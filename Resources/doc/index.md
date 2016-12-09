@@ -1,10 +1,10 @@
-# Getting started with MultipleInheritanceBundle
+# Getting started with MultipleInheritBundle
 
 ## Quick start
 
 If you are not familiar with Bundle Inheritance in Symfony, I suggest you to read [first](http://symfony.com/doc/master/cookbook/bundles/inheritance.html) and the [second](http://symfony.com/doc/master/cookbook/bundles/override.html) cookbok articles about that.
 
-Limitation of native Symfony's Bundle Inheritance is only one-to-one child-parent relationships between bundles. MultipleInheritanceBundle aims to remove this limitation. To do this, plugin introduces the concept of *Active Bundle*. 
+Limitation of native Symfony's Bundle Inheritance is only one-to-one child-parent relationships between bundles. MultipleInheritBundle aims to remove this limitation. To do this, plugin introduces the concept of *Active Bundle*. 
 
 Active Bundle determines priority of searching and loading resources between child-parent bundles. Active Bundle is the bundle, the controller of which was called by the routing. For example, if your route, that matched request have something like `'_controller' => 'TestBundle:Controller:Action'`, `TestBundle` will be active until the end of the request. For different routes different bundles can be active.
 
@@ -32,20 +32,20 @@ php composer.phar update
 <?php
 // app/AppKernel.php
 
-use Init\Bundle\MultipleInheritanceBundle\HttpKernel\BundleInheritanceKernel as BaseKernel;
+use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel as BaseKernel;
 
 class AppKernel extends BaseKernel {
     // ...
 }
 ```
 
-4) Optional step: If you are using integrated symfony cacher, extend your `AppCache` with `Init\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache\HttpCache`, like that:
+4) Optional step: If you are using integrated symfony cacher, extend your `AppCache` with `Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\HttpCache`, like that:
 
 ```php
 <?php
 // app/AppCache.php
 
-use Init\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache\HttpCache as BaseCache;
+use Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\HttpCache as BaseCache;
 
 class AppCache extends BaseCache {
 	// ...
@@ -63,7 +63,7 @@ public function registerBundles() {
     return array(
         // ...
         
-        new Init\Bundle\MultipleInheritanceBundle\MultipleInheritanceBundle($this),
+        new Init\Bundle\MultipleInheritBundle\MultipleInheritBundle($this),
     );
 }
 ```
@@ -73,7 +73,7 @@ public function registerBundles() {
 ```yml
 # app/config/routing.yml
 
-MultipleInheritanceBundle:
+MultipleInheritBundle:
 	resource: .
 	type: inheritance
 ```

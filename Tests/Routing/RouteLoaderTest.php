@@ -1,12 +1,12 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\Tests\Routing;
+namespace Init\Bundle\MultipleInheritBundle\Tests\Routing;
 
 
-use Init\Bundle\MultipleInheritanceBundle\Routing\Loader\InheritanceRouteLoader;
-use Init\Bundle\MultipleInheritanceBundle\Routing\Loader\ReplacingRouteLoader;
-use Init\Bundle\MultipleInheritanceBundle\Routing\RoutingAdditionsInterface;
-use Init\Bundle\MultipleInheritanceBundle\Tests\TestCase;
+use Init\Bundle\MultipleInheritBundle\Routing\Loader\InheritanceRouteLoader;
+use Init\Bundle\MultipleInheritBundle\Routing\Loader\ReplacingRouteLoader;
+use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
+use Init\Bundle\MultipleInheritBundle\Tests\TestCase;
 use Symfony\Component\Config\Loader\LoaderResolver;
 use Symfony\Component\HttpKernel\Config\FileLocator;
 use Symfony\Component\Routing\Loader\PhpFileLoader;

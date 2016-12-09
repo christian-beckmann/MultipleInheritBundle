@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures;
+namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures;
 
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;

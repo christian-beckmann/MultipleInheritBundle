@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\Tests\Fixtures\Child1Bundle\Controller;
+namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Controller;
 
 
 class ChildBundle1TestController

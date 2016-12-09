@@ -11,7 +11,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Init\Bundle\MultipleInheritanceBundle\HttpKernel\HttpCache;
+namespace Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

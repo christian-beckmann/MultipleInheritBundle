@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritanceBundle\DependencyInjection;
+namespace Init\Bundle\MultipleInheritBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\FileLocator;
@@ -27,13 +27,13 @@ class MultipleInheritanceExtension extends Extension
         $loader->load('services.xml');
 
         foreach (array('router.options.generator_class', 'router.options.generator_base_class') as $generatorClasses) {
-            $container->setParameter($generatorClasses, 'Init\Bundle\MultipleInheritanceBundle\Routing\Generator');
+            $container->setParameter($generatorClasses, 'Init\Bundle\MultipleInheritBundle\Routing\Generator');
         }
 
         $this->addClassesToCompile(
             array(
-                'Init\\Bundle\\MultipleInheritanceBundle\\EventListener\\ActiveBundleDeterminationListener',
-                'Init\\Bundle\\MultipleInheritanceBundle\\DependencyInjection\\Loader\\YamlFileLoader',
+                'Init\\Bundle\\MultipleInheritBundle\\EventListener\\ActiveBundleDeterminationListener',
+                'Init\\Bundle\\MultipleInheritBundle\\DependencyInjection\\Loader\\YamlFileLoader',
             )
         );
     }

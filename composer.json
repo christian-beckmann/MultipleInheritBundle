@@ -18,8 +18,8 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Init\\Bundle\\MultipleInheritanceBundle": "" }
+        "psr-0": { "Init\\Bundle\\MultipleInheritBundle": "" }
     },
-    "target-dir": "Init/Bundle/MultipleInheritanceBundle",
+    "target-dir": "Init/Bundle/MultipleInheritBundle",
     "minimum-stability": "dev"
 }
