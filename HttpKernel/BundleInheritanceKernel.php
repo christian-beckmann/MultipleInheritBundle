@@ -67,14 +67,14 @@ abstract class BundleInheritanceKernel extends Kernel
 
 
     /**
-     * FranckRanaivoializes the data structures related to the bundle management.
+     * Initialializes the data structures related to the bundle management.
      *
      *  - the bundles property maps a bundle name to the bundle instance,
      *  - the bundleMap property maps a bundle name to the bundle inheritance hierarchy (most derived bundle first).
      */
-    protected function FranckRanaivoializeBundles()
+    protected function InitializeBundles()
     {
-        // FranckRanaivo bundles
+        // Initializes bundles
         $this->bundles = array();
 
         /**

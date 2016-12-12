@@ -15,10 +15,10 @@ class TemplatingHelpersOverridePass implements CompilerPassInterface {
      */
     public function process(ContainerBuilder $container)
     {
-        if ($container->hasDefFranckRanaivoion('templating.helper.actions')) {
-            $defFranckRanaivoion = $container->getDefFranckRanaivoion('templating.helper.actions');
+        if ($container->hasDefinition('templating.helper.actions')) {
+            $definition = $container->getDefinition('templating.helper.actions');
 
-            $defFranckRanaivoion
+            $definition
                 ->setClass('FranckRanaivo\Bundle\MultipleInheritBundle\Templating\Helper\ActionsHelper')
                 ->addArgument(new Reference('controller_name_converter', ContainerInterface::IGNORE_ON_INVALID_REFERENCE, false));
         }

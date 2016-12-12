@@ -22,9 +22,9 @@ class TemplatingPathsCacheWarmerDisablingPass implements CompilerPassInterface {
     public function process(ContainerBuilder $container)
     {
         foreach (array('twig.cache_warmer', 'templating.cache_warmer.template_paths') as $name) {
-            if ($container->hasDefFranckRanaivoion($name)) {
-                $defFranckRanaivoion = $container->getDefFranckRanaivoion($name);
-                $defFranckRanaivoion->setClass('FranckRanaivo\Bundle\MultipleInheritBundle\CacheWarmer\DummyCacheWarmer');
+            if ($container->hasDefinition($name)) {
+                $definition = $container->getDefinition($name);
+                $definition->setClass('FranckRanaivo\Bundle\MultipleInheritBundle\CacheWarmer\DummyCacheWarmer');
             }
         }
     }
