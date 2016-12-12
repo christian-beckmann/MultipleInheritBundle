@@ -1,15 +1,15 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\HttpCache;
 
 
-use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
+use FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Class StoreImpl injects active bundle in cache key
  *
- * @package Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache
+ * @package FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\HttpCache
  */
 class StoreImpl extends Store
 {
@@ -17,7 +17,7 @@ class StoreImpl extends Store
     protected $keyCache;
 
     /**
-     * @var \Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel
+     * @var \FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel
      */
     private $kernel;
 

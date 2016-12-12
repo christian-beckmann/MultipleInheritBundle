@@ -1,11 +1,11 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\HttpKernel;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\HttpKernel;
 
 
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\TestKernel;
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\UnknownParentBundle\UnknownParentBundle;
-use Init\Bundle\MultipleInheritBundle\Tests\TestCase;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\TestKernel;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\UnknownParentBundle\UnknownParentBundle;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\TestCase;
 
 class BundleInheritanceKernelTest extends TestCase
 {

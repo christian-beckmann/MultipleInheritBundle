@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\HttpCache;
 
 use Symfony\Bundle\FrameworkBundle\HttpCache\HttpCache as BaseCache;
 

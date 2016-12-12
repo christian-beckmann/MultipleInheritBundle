@@ -1,8 +1,8 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Controller;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Controller;
 
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\Controller\AwesomeController as Base;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\Controller\AwesomeController as Base;
 
 
 class AwesomeController extends Base

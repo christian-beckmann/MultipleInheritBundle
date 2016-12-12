@@ -15,7 +15,7 @@ Active Bundle determines priority of searching and loading resources between chi
 ```javascript
 {
 	"require": {
-		"Init/multiple-inheritance-bundle": "dev-master"
+		"FranckRanaivo/multiple-inheritance-bundle": "dev-master"
 	}
 }
 ```
@@ -32,20 +32,20 @@ php composer.phar update
 <?php
 // app/AppKernel.php
 
-use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel as BaseKernel;
+use FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel as BaseKernel;
 
 class AppKernel extends BaseKernel {
     // ...
 }
 ```
 
-4) Optional step: If you are using integrated symfony cacher, extend your `AppCache` with `Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\HttpCache`, like that:
+4) Optional step: If you are using integrated symfony cacher, extend your `AppCache` with `FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\HttpCache`, like that:
 
 ```php
 <?php
 // app/AppCache.php
 
-use Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\HttpCache as BaseCache;
+use FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\HttpCache as BaseCache;
 
 class AppCache extends BaseCache {
 	// ...
@@ -63,7 +63,7 @@ public function registerBundles() {
     return array(
         // ...
         
-        new Init\Bundle\MultipleInheritBundle\MultipleInheritBundle($this),
+        new FranckRanaivo\Bundle\MultipleInheritBundle\MultipleInheritBundle($this),
     );
 }
 ```

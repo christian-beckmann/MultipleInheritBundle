@@ -1,10 +1,10 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Templating;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Templating;
 
 
-use Init\Bundle\MultipleInheritBundle\Templating\Helper\ActionsHelper;
-use Init\Bundle\MultipleInheritBundle\Tests\TestCase;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Templating\Helper\ActionsHelper;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\TestCase;
 use Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser;
 use Symfony\Component\HttpKernel\Fragment\FragmentHandler;
 
@@ -16,10 +16,10 @@ class ActionsHelperTest extends TestCase
         $kernel = $this->buildKernel();
         $kernel->setActiveBundle(null);
 
-        $actionsHelper = $this->initActionsHelper($kernel);
+        $actionsHelper = $this->FranckRanaivoActionsHelper($kernel);
 
         $this->assertEquals(
-            'Init\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\Controller\AwesomeController::indexAction',
+            'FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\Controller\AwesomeController::indexAction',
             $actionsHelper->controller('ParentBundle:Awesome:index')->controller
         );
     }
@@ -29,15 +29,15 @@ class ActionsHelperTest extends TestCase
         $kernel = $this->buildKernel();
         $kernel->setActiveBundle($this->child1Bundle);
 
-        $actionsHelper = $this->initActionsHelper($kernel);
+        $actionsHelper = $this->FranckRanaivoActionsHelper($kernel);
 
         $this->assertEquals(
-            'Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Controller\AwesomeController::indexAction',
+            'FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Controller\AwesomeController::indexAction',
             $actionsHelper->controller('ParentBundle:Awesome:index')->controller
         );
     }
 
-    protected function initActionsHelper($kernel)
+    protected function FranckRanaivoActionsHelper($kernel)
     {
         $controllerNameParser = new ControllerNameParser($kernel);
         $fragmentHandler      = new FragmentHandler(array(), true);

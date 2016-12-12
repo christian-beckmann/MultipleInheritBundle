@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\DependencyInjection\Compiler;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\DependencyInjection\Compiler;
 
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
@@ -15,11 +15,11 @@ class TemplatingHelpersOverridePass implements CompilerPassInterface {
      */
     public function process(ContainerBuilder $container)
     {
-        if ($container->hasDefinition('templating.helper.actions')) {
-            $definition = $container->getDefinition('templating.helper.actions');
+        if ($container->hasDefFranckRanaivoion('templating.helper.actions')) {
+            $defFranckRanaivoion = $container->getDefFranckRanaivoion('templating.helper.actions');
 
-            $definition
-                ->setClass('Init\Bundle\MultipleInheritBundle\Templating\Helper\ActionsHelper')
+            $defFranckRanaivoion
+                ->setClass('FranckRanaivo\Bundle\MultipleInheritBundle\Templating\Helper\ActionsHelper')
                 ->addArgument(new Reference('controller_name_converter', ContainerInterface::IGNORE_ON_INVALID_REFERENCE, false));
         }
     }

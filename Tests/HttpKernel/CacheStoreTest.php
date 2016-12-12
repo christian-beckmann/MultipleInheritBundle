@@ -1,10 +1,10 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\HttpKernel;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\HttpKernel;
 
 
-use Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\StoreImpl;
-use Init\Bundle\MultipleInheritBundle\Tests\TestCase;
+use FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\StoreImpl;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
 class CacheStoreTest extends TestCase
@@ -15,7 +15,7 @@ class CacheStoreTest extends TestCase
         $request = Request::create('/');
 
         $getCacheKeyMethod = $this->getMethod(
-            'Init\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\StoreImpl',
+            'FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\HttpCache\StoreImpl',
             'getCacheKey'
         );
 

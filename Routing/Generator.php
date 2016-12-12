@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Routing;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Routing;
 
 use Symfony\Component\HttpKernel\HttpCache\HttpCache;
 use Symfony\Component\Routing\Exception\RouteNotFoundException;
@@ -23,7 +23,7 @@ class Generator extends BaseUrlGenerator
         array $requiredSchemes = array()
     ) {
         if (null === $this->routePrefix) {
-            $this->initRoutePrefix();
+            $this->FranckRanaivoRoutePrefix();
         }
 
         if (is_string($this->routePrefix)) {
@@ -46,7 +46,7 @@ class Generator extends BaseUrlGenerator
         );
     }
 
-    protected function initRoutePrefix()
+    protected function FranckRanaivoRoutePrefix()
     {
         global $kernel;
 

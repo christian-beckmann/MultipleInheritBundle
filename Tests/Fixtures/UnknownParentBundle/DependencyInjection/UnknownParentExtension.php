@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures\UnknownParentBundle\DependencyInjection;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\UnknownParentBundle\DependencyInjection;
 
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;

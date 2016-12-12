@@ -1,9 +1,9 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures\UnknownParentBundle;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\UnknownParentBundle;
 
 
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\BaseBundle;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\BaseBundle;
 
 class UnknownParentBundle extends BaseBundle
 {

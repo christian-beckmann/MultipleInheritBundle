@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Init\Bundle\MultipleInheritBundle;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle;
 
 
-use Init\Bundle\MultipleInheritBundle\DependencyInjection\Compiler\TemplatingHelpersOverridePass;
-use Init\Bundle\MultipleInheritBundle\DependencyInjection\Compiler\TemplatingPathsCacheWarmerDisablingPass;
-use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
+use FranckRanaivo\Bundle\MultipleInheritBundle\DependencyInjection\Compiler\TemplatingHelpersOverridePass;
+use FranckRanaivo\Bundle\MultipleInheritBundle\DependencyInjection\Compiler\TemplatingPathsCacheWarmerDisablingPass;
+use FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\HttpKernel\KernelInterface;
@@ -18,7 +18,7 @@ class MultipleInheritBundle extends Bundle
     function __construct(KernelInterface $kernel)
     {
         if (!$kernel instanceof BundleInheritanceKernel) {
-            throw new \InvalidArgumentException('Your kernel must be inherited from Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel');
+            throw new \InvalidArgumentException('Your kernel must be inherited from FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel');
         }
     }
 

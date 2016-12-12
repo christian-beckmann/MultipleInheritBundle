@@ -1,10 +1,10 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle;
 
 
-use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\BaseBundle;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\BaseBundle;
 
 class Child2Bundle extends BaseBundle implements RoutingAdditionsInterface
 {

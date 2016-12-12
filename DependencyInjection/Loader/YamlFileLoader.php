@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\DependencyInjection\Loader;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\DependencyInjection\Loader;
 
 use Symfony\Component\DependencyInjection\Exception\InvalidArgumentException;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader as BaseLoader;

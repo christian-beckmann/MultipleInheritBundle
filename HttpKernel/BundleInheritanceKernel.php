@@ -1,9 +1,9 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\HttpKernel;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel;
 
 
-use Init\Bundle\MultipleInheritBundle\DependencyInjection\Loader\YamlFileLoader;
+use FranckRanaivo\Bundle\MultipleInheritBundle\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\Config\Loader\DelegatingLoader;
 use Symfony\Component\Config\Loader\LoaderResolver;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -67,14 +67,14 @@ abstract class BundleInheritanceKernel extends Kernel
 
 
     /**
-     * Initializes the data structures related to the bundle management.
+     * FranckRanaivoializes the data structures related to the bundle management.
      *
      *  - the bundles property maps a bundle name to the bundle instance,
      *  - the bundleMap property maps a bundle name to the bundle inheritance hierarchy (most derived bundle first).
      */
-    protected function initializeBundles()
+    protected function FranckRanaivoializeBundles()
     {
-        // init bundles
+        // FranckRanaivo bundles
         $this->bundles = array();
 
         /**

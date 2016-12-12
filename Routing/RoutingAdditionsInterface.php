@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Routing;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Routing;
 
 
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;

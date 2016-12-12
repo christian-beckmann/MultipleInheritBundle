@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Controller;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Controller;
 
 
 class ChildBundle2TestController

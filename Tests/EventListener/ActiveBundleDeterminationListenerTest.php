@@ -1,12 +1,12 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\EventListener;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\EventListener;
 
-use Init\Bundle\MultipleInheritBundle\EventListener\ActiveBundleDeterminationListener;
-use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Controller\ChildBundle1TestController;
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Controller\ChildBundle2TestController;
-use Init\Bundle\MultipleInheritBundle\Tests\TestCase;
+use FranckRanaivo\Bundle\MultipleInheritBundle\EventListener\ActiveBundleDeterminationListener;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Controller\ChildBundle1TestController;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Controller\ChildBundle2TestController;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests;
 
 
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Child1Bundle;
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Child2Bundle;
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\ParentBundle;
-use Init\Bundle\MultipleInheritBundle\Tests\Fixtures\TestKernel;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child1Bundle\Child1Bundle;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\Child2Bundle\Child2Bundle;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\ParentBundle;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\TestKernel;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 
 class TestCase extends \PHPUnit_Framework_TestCase

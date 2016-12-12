@@ -1,10 +1,10 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Routing\Loader;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Routing\Loader;
 
 
-use Init\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
-use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
+use FranckRanaivo\Bundle\MultipleInheritBundle\HttpKernel\BundleInheritanceKernel;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser;
 use Symfony\Component\Config\Loader\Loader;
 use Symfony\Component\Routing\RouteCollection;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\Controller;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Fixtures\ParentBundle\Controller;
 
 
 class AwesomeController

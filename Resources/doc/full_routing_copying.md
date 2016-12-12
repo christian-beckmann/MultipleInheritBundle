@@ -18,7 +18,7 @@ Next, your child bundle class must implement `RoutingAdditionsInterface`:
 ```php
 // src/Acme/ChildBundle/ChildBundle.php
 
-use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
 
 class ChildBundle extends Bundle implements RoutingAdditionsInterface
 {

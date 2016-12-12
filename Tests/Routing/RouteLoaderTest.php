@@ -1,12 +1,12 @@
 <?php
 
-namespace Init\Bundle\MultipleInheritBundle\Tests\Routing;
+namespace FranckRanaivo\Bundle\MultipleInheritBundle\Tests\Routing;
 
 
-use Init\Bundle\MultipleInheritBundle\Routing\Loader\InheritanceRouteLoader;
-use Init\Bundle\MultipleInheritBundle\Routing\Loader\ReplacingRouteLoader;
-use Init\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
-use Init\Bundle\MultipleInheritBundle\Tests\TestCase;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Routing\Loader\InheritanceRouteLoader;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Routing\Loader\ReplacingRouteLoader;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Routing\RoutingAdditionsInterface;
+use FranckRanaivo\Bundle\MultipleInheritBundle\Tests\TestCase;
 use Symfony\Component\Config\Loader\LoaderResolver;
 use Symfony\Component\HttpKernel\Config\FileLocator;
 use Symfony\Component\Routing\Loader\PhpFileLoader;
