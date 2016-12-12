@@ -67,12 +67,12 @@ abstract class BundleInheritanceKernel extends Kernel
 
 
     /**
-     * Initialializes the data structures related to the bundle management.
+     *  Initialializes the data structures related to the bundle management.
      *
      *  - the bundles property maps a bundle name to the bundle instance,
      *  - the bundleMap property maps a bundle name to the bundle inheritance hierarchy (most derived bundle first).
      */
-    protected function InitializeBundles()
+    protected function initializeBundles()
     {
         // Initializes bundles
         $this->bundles = array();
