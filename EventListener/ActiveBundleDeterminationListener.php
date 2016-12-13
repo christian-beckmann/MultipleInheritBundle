@@ -56,7 +56,7 @@ class ActiveBundleDeterminationListener implements EventSubscriberInterface
         } else {
             $controller = $event->getController();
             $controllerClass = get_class($controller[0]);
-
+			
             $bundle = $this->getBundleForClass($controllerClass);
         }
 
