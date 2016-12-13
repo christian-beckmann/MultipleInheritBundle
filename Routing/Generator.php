@@ -23,7 +23,7 @@ class Generator extends BaseUrlGenerator
         array $requiredSchemes = array()
     ) {
         if (null === $this->routePrefix) {
-            $this->FranckRanaivoRoutePrefix();
+            $this->initRoutePrefix();
         }
 
         if (is_string($this->routePrefix)) {
@@ -46,7 +46,7 @@ class Generator extends BaseUrlGenerator
         );
     }
 
-    protected function FranckRanaivoRoutePrefix()
+    protected function initRoutePrefix()
     {
         global $kernel;
 
