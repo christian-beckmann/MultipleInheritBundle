@@ -49,7 +49,7 @@ class InheritanceRouteLoader extends Loader
                 $routes->addCollection($loader->load($this->kernel->locateResource($resource)));
             }
         }
-
+		
         $this->kernel->setActiveBundle($previousActiveBundle);
 
         $this->loaded = true;

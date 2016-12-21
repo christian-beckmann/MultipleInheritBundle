@@ -25,7 +25,7 @@ class MultipleInheritExtension extends Extension
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
 
         $loader->load('services.xml');
-
+        
         foreach (array('router.options.generator_class', 'router.options.generator_base_class') as $generatorClasses) {
             $container->setParameter($generatorClasses, 'FranckRanaivo\Bundle\MultipleInheritBundle\Routing\Generator');
         }
