@@ -1,5 +1,5 @@
 {
-    "name": "franckranaivo/multiple-inherit-bundle",
+    "name": "christian-beckmann/multiple-inherit-bundle",
     "type": "symfony-bundle",
     "description": "This Symfony3 bundle provides inheritance between multiple child bundles and one parent.",
     "keywords": ["symfony", "inheritance", "bundle"],
